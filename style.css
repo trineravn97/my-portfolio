@@ -1,0 +1,253 @@
+/*
+Theme Name: My Portfolio 
+Author: Trine Ravn
+Description: This is to showcase my work
+Version: 1.0
+*/
+
+*{
+    margin: 0; 
+    padding: 0; 
+}
+
+body {
+    font-family: Silom;
+    color: rgb(102, 79, 64);
+    font-size: medium;
+    background-image: url(img/igenigen.png);
+}
+
+header {
+    background-image: url(img/igenigen.png); 
+    text-align:center; 
+    margin: 0; 
+    padding: 30px 0; 
+    display: flex;
+}
+
+h2, h3 {
+    font-size: 50px; 
+    margin-left: 200px;
+}
+
+main.frontpage {
+    flex-direction: column;
+}
+
+main.bliv-imponeret {
+    justify-content: flex-start;
+}
+
+main {
+    display: flex; 
+    justify-content: center;
+    height: 100vh;
+}
+
+footer {
+    background-color: rgb(102, 79, 64);
+    color: rgb(248, 248, 207);
+    padding: 10px; 
+    position: fixed; 
+    bottom: 0; 
+    width: 100%; 
+    font-size: 10px; 
+    text-align: center; 
+}
+
+img {
+    max-height: 250px;
+    margin: 0px 30px;
+}
+
+p {
+    text-align: center;
+    margin-left: -10px;
+    margin-top: 300px;
+    color: rgb(102, 79, 64)
+}
+
+ul.menu {
+    display:flex;
+    justify-content: center;
+    color: rgb(102, 79, 64)
+
+}
+
+ul.menu li {
+    margin: 10px; 
+    list-style-type: none;
+    color: rgb(102, 79, 64)
+}
+
+ul.menu li a {
+    color: rgb(102, 79, 64);
+}
+
+.forside-billede {
+    height: 117px;
+    width: 440px; 
+    align-items: center;
+    background-image: url(img/tekst-forside.png);
+    margin-left: 500px;
+}
+.hej{
+    display: flex;
+    flex-direction: column;
+}
+.coverart {
+    display: flex;
+    width: auto;
+    margin: 200px;
+    gap: 50px;
+    justify-content: left;
+    margin-left: -200px;
+}
+
+h1 {
+    margin: 10px; 
+    color:rgb(102, 79, 64); 
+}
+
+.boks1 {
+    display: flex;
+    justify-content: center;
+    height: 250px; 
+    width: 250px; 
+    background-image: url(img/coverart1.png)
+}
+
+.boks2 {
+    display: flex;
+    justify-content: center;
+    height: 250px; 
+    width: 250px; 
+    background-image: url(img/coverart3.png)
+}
+
+.boks3 {
+    display: flex;
+    justify-content: center;
+    height: 250px; 
+    width: 250px; 
+    background-image: url(img/coverart_2.png)
+}
+
+.logoer {
+    display: flex;
+    width: auto;  
+    gap: 50px; 
+    justify-content: left;
+    margin-left: -180px;
+
+}
+
+.boks4 {
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    width: 250px; 
+    background-image: url(img/Logo1.0.png); 
+
+}
+
+.boks5 {
+    display: flex;
+    justify-content: center;
+    height: 230px;
+    width: 250px; 
+    background-image: url(img/Logo2.0.png);
+}
+
+.plakater {
+    display: flex;
+    width: auto;  
+    gap: 50px; 
+    font-size: 30px;
+    justify-content: left;
+    margin-top: 200px; 
+    margin-left: -200px;
+    
+}
+
+.boks6 {
+    display: flex;
+    justify-content: center;
+    height: 354px;
+    width: 250px; 
+    background-image: url(img/esbjerg_festuge_plakat.png);
+    margin-bottom: 200px;
+}
+
+.boks8 {
+    display: flex;
+    justify-content: center;
+    height: 354px;
+    width: 250px; 
+    background-image: url(img/halloween_plakat.png);
+    margin-bottom: 200px;
+}
+.om-mig { 
+    width: auto; 
+    gap: 50px; 
+    justify-content: left;
+}
+
+.boks7 { 
+    justify-content: center;
+    height: 384px; 
+    width: 250px; 
+    margin-top: 25px;
+    margin-left: 350px;
+    background-image: url(img/ommig_billede.png);
+}
+
+h4 {
+    text-align: center;
+    margin-top: 100px;
+    font-size: large;
+}
+
+h5 {
+    text-align:center; 
+    margin-top: 50px;
+    font-size: larger;
+}
+
+.video {
+    width: auto; 
+    justify-content: center;
+    margin-left: 200px;
+    margin-top: -200px;
+    margin-bottom: 200px;
+}
+
+.logo-kontakt {
+    height: 150px;
+    width: 250px;
+    background-image: url(img/færdig_logo-kopi.png);
+    justify-content: left;
+    margin-top: 200px;
+}
+
+.visitkort {
+    display:flex; 
+    width:auto; 
+    gap: 50px;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 500px;
+    margin-left: -500px;
+}
+
+.forside {
+    height: 250px; 
+    width: 394px; 
+    background-image: url(img/visit_forside.png);
+}
+
+.bagside {
+    height: 250px; 
+    width: 394px; 
+    background-image: url(img/visit_bagside.png);
+}
